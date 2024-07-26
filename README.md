@@ -1,1 +1,5 @@
-As Simple website using HTML and CSS
+# PERSONAL WEBSITE 
+A Simple website about me 
+
+## Authors 
+-[@MithilSaiReddy](https://github.com/MithilSaiReddy)
