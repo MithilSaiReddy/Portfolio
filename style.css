@@ -4,7 +4,7 @@ html {
   background-color: black;
 }
 
-.home {
+h1 {
   color: white;
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
@@ -12,6 +12,8 @@ html {
   font-weight: 400;
   line-gap-override: 50;
   line-height: 1.5;
+  text-decoration: underline;
+  position: relative;
 }
 
 span {
@@ -28,18 +30,43 @@ p {
   line-height: 1.5;
 }
 
-.projects{
+.projects {
+  line-height: 3;
   color: white;
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
+  ;
 }
 
-.projects iframe{
+.projects iframe {
   padding-left: 50px;
   padding-right: 50px;
 }
-.contact a{
+
+.contact {
+  position: relative;
+}
+
+.contact a {
   color: skyblue;
 }
 
+.contact img {
+  position: absolute;
+  padding-left: 325px;
+  padding-right: 325px;
+  opacity: 0.2;
+}
+
+.toppings {
+  position: absolute;
+  padding-left: 50px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
